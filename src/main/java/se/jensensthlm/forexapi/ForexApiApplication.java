@@ -8,6 +8,7 @@ public class ForexApiApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ForexApiApplication.class, args);
+
     }
 
 }
