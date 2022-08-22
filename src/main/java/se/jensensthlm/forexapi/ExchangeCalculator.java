@@ -23,6 +23,7 @@ public class ExchangeCalculator {
         checkTargetCurrency(targetCurrency, "Can't buy same currency");
         var rate = getExchangeRate(targetCurrency);
         return amount * rate;
+        
     }
 
     public double calculateSell(String sourceCurrency, double amount){
